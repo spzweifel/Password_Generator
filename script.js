@@ -12,6 +12,9 @@ function writePassword() {
 
 //this function puts the generated password into the textbox
 function generatePassword() {
+  var pwLength = prompt("what length would you like your password");
+  //if/else stuff after this
+  if pwLength =< 8 || => 128
   var chars = "0123456789abcdefghijklmnopqrstuvwxyz!@#$%^&*()ABCDEFGHIJKLMNOPQRSTUVWXYZ";
   var passwordLength = 8;
 
@@ -31,7 +34,7 @@ function promptMe(){
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
 let text;
-onclick=let person = prompt("Please enter password length: ");
+onclick=let; person = prompt("Please enter password length: ");
 if (person == null || person == "") {
   closeevent = prompt;
 } else {
